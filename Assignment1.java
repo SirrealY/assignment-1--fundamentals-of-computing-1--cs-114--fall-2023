@@ -24,7 +24,17 @@ public class Assignment1 {
 
     String str = sc.nextLine();
 
-    System.out.println(str);
+    //System.out.println(str);
+
+    //Removes the first and last characters from a 5 letter word 
+
+    String finalstr = str.substring(1,4);
+
+    System.out.println(finalstr);
+
+    
+
+
     
 
   
