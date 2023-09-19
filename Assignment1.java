@@ -30,7 +30,7 @@ public class Assignment1 {
 
     String finalstr = str.substring(1,4);
 
-    System.out.println(finalstr);
+    //System.out.println(finalstr);
 
     
 
