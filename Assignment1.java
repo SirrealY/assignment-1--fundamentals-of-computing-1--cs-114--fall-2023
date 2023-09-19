@@ -10,8 +10,8 @@ public class Assignment1 {
     system.out.println("        s          yyy");
     system.out.println("    sssss          yyy");
     
-    Scanner fahrenheit = new Scanner(system.in);
-    system.out.println ("Enter a number in Fahrenheit")
-    int fahrenheit = fahrenheit.nextInt()
+    Scanner scan = new Scanner(system.in);
+    system.out.println ("Enter a number in Fahrenheit");
+    int fahrenheit = scan.nextInt();
   }
 }
