@@ -5,23 +5,23 @@ import java.util.Random;
 public class Assignment1 {
   public static void main(String[] args) {
     
-    String finalstr;//Declare finalstr as variable
+    String finalstr;//Declare finalstr as String
 
-    int num;//Declare num as variable
+    int num;//Declare num as int
 
-    int fahrenheit;
+    int fahrenheit;//Declare fahrenheit as int 
 
-    double celsius;
+    double celsius;//Declare celsius as double 
 
-    Random generate;
+    Random generate;//Declare generate as random
 
     System.out.println("                                            "); // Space at the beginning of Terminal 
     System.out.println("     sssss      yyyyy   yyyyy            ");
     System.out.println("     s           yyyy    yyyy            ");
     System.out.println("     sssss         yy    yy");
-    System.out.println("         s          yyy");
-    System.out.println("         s          yyy");
-    System.out.println("     sssss          yyy");
+    System.out.println("         s           yyy");
+    System.out.println("         s           yyy");
+    System.out.println("     sssss           yyy");
     System.out.println("                                              "); //Space at bottom of Terminal 
     
     Scanner scan = new Scanner(System.in);// Scanner Definition 
