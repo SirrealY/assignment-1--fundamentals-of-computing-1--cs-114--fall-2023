@@ -1,4 +1,6 @@
-import java.util.Scanner;  
+import java.util.Scanner;
+
+import java.util.Random;
 
 public class Assignment1 {
   public static void main(String[] args) {
@@ -32,17 +34,20 @@ public class Assignment1 {
 
     String reversed = new StringBuilder(finalstr).reverse().toString();
 
-    System.out.println(reversed);
+    System.out.println(reversed);//Delete when code is finished
 
-    
+    Random generate = new Random(); //Initialize Generate 
 
-  
+    int num; 
 
-    
+    num = generate.nextInt(16384) + 30; //Randomly Generate number from 30-16384
+    System.out.println("");//Empty line 
+    System.out.println("A random number is being generated...");
+
+    System.out.println(Celsius+ reversed + num);// Print all of the variable made
 
 
-    
-
-  
+    sc.close();
+    scan.close();
   }
 }
