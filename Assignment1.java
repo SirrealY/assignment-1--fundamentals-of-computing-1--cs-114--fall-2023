@@ -5,7 +5,7 @@ import java.util.Random;
 public class Assignment1 {
   public static void main(String[] args) {
     
-    str finalstr;
+    String finalstr;
 
     int num;
 
@@ -35,7 +35,7 @@ public class Assignment1 {
 
     System.out.println("");
 
-    finalstr = str.substring(1,4);//Removes the first and last characters from a 5 letter word 
+    finalstr = String.substring(1,4);//Removes the first and last characters from a 5 letter word 
 
     String reversed = new StringBuilder(finalstr).reverse().toString();
 
